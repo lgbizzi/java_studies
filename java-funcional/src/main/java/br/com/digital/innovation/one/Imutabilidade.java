@@ -17,6 +17,8 @@ public class Imutabilidade {
         UnaryOperator<Integer> retornarDobro = v -> v * 2;
         System.out.println(retornarDobro.apply(valor));     //retorna o dobro do valor
         System.out.println(valor);                          //o valor não será alterado
+        
+        //Teste
     }
     
 }
